@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+  <title>Monique Makeup | Portfolio</title>
+  <link rel="stylesheet" href="assets/css/style.css"/>
+</head>
+<body>
+  <header class="nav">
+    <div class="inner">
+      <a href="index.html" class="brand brand-with-logo">
+        <img src="images/LogoBlack.png" alt="Monique Makeup Logo" class="brand-logo">
+        <span>Monique Makeup</span>
+       </a>
+      <nav class="navlinks">
+        <a class="active" href="index.html">HOME</a>
+        <a href="about.html">ABOUT ME</a>
+        <a href="portfolio.html">PORTFOLIO</a>
+        <a href="contact.html">CONTACT</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero hero-layout">
+  <div class="hero-text">
+    <h1>Vocational Technician in Hairdressing & Makeup Artist</h1>
+
+    <p class="kicker">
+      EDITORIAL-DRIVEN BEAUTY CREATOR FOCUSED ON STRUCTURE, TEXTURE, AND VISUAL IMPACT.
+    </p>
+
+    <p class="lead">
+      Transforming faces and hair into expressive, high-fashion statements.
+    </p>
+
+    <div class="btnrow">
+      <a class="btn" href="portfolio.html">View Portfolio</a>
+      <a class="btn secondary" href="contact.html">Contact</a>
+    </div>
+  </div>
+
+  <div class="hero-logo">
+    <img src="images/LogoBlack.png" alt="Monique Makeup Logo">
+  </div>
+</section>
+
+<section class="grid-2">
+  <div class="card">
+    <h2 class="section-title">What I do</h2>
+    <div class="hr"></div>
+    <p class="lead" style="margin:0">
+      Makeup & hairstyling for special events, photography, and TV. I focus on technique, precision,
+      facial analysis and modern styling to enhance your best features.
+    </p>
+  </div>
+</section>
+
+    <footer class="footer">
+      © <span id="year"></span> Monique Makeup — All rights reserved.
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

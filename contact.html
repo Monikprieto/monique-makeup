@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+  <title>Contact | Monique Makeup</title>
+  <link rel="stylesheet" href="assets/css/style.css"/>
+</head>
+<body>
+  <header class="nav">
+    <div class="inner">
+      <a href="index.html" class="brand brand-with-logo">
+        <img src="images/LogoBlack.png" alt="Monique Makeup Logo" class="brand-logo">
+        <span>Monique Makeup</span>
+       </a>
+      <nav class="navlinks">
+        <a href="index.html">HOME</a>
+        <a href="about.html">ABOUT ME</a>
+        <a href="portfolio.html">PORTFOLIO</a>
+        <a class="active" href="contact.html">CONTACT</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>Contact</h1>
+      <div class="kicker">Let’s create something bold and unforgettable.</div>
+      <p class="lead">Get in touch to collaborate.</p>
+    </section>
+
+    <section class="grid-2">
+      <div class="card">
+        <h2 class="section-title">Direct</h2>
+        <div class="hr"></div>
+        <p class="lead" style="margin:0">
+          Email: <a href="mailto:monique.prieto31@gmail.com">monique.prieto31@gmail.com</a><br/>
+          Phone: <a href="tel:+17786814038">+1 (778) 681-4038</a><br/>
+          Instagram: <a href="https://instagram.com/monique_mkup" target="_blank" rel="noopener">@monique_mkup</a>
+        </p>
+        <div class="btnrow">
+          <a class="btn" href="mailto:monique.prieto31@gmail.com">Email me</a>
+          <a class="btn secondary" href="https://instagram.com/monique_mkup" target="_blank" rel="noopener">Instagram</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      © <span id="year"></span> Monique Makeup — All rights reserved.
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

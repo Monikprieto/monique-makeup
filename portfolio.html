@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+  <title>Portfolio | Monique Makeup</title>
+  <link rel="stylesheet" href="assets/css/style.css"/>
+</head>
+<body>
+  <header class="nav">
+    <div class="inner">
+      <a href="index.html" class="brand brand-with-logo">
+        <img src="images/LogoBlack.png" alt="Monique Makeup Logo" class="brand-logo">
+        <span>Monique Makeup</span>
+       </a>
+      <nav class="navlinks">
+        <a href="index.html">HOME</a>
+        <a href="about.html">ABOUT ME</a>
+        <a class="active" href="portfolio.html">PORTFOLIO</a>
+        <a href="contact.html">CONTACT</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>Portfolio</h1>
+      <div class="kicker">Selected work</div>
+      <p class="lead">Browse my looks. 12 pieces per page.</p>
+    </section>
+
+    <section class="card">
+      <div id="gallery" class="gallery"></div>
+      <div id="pager" class="pager"></div>
+    </section>
+
+    <footer class="footer">
+      © <span id="year"></span> Monique Makeup — All rights reserved.
+    </footer>
+  </main>
+
+  <script src="assets/js/portfolio.js"></script>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
