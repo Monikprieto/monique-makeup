@@ -24,7 +24,7 @@ const items = [
   { src: "p016.png", label: "Look 16" },
   { src: "p017.png", label: "Look 17" },
   { src: "p018.jpg", label: "Look 18" },
-  { src: "p019.png", label: "Look 19" },
+  { src: "p019.jpg", label: "Look 19" },
   { src: "p020.png", label: "Look 20" },
   { src: "p021.png", label: "Look 21" },
   { src: "p022.png", label: "Look 22" },
